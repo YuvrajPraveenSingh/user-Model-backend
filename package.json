@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "backend of youtube clone ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-   "start": "node index.js"
+    "start": "nodemon src/index.js"
   },
   "keywords": [
     "professional",
     "backend"
   ],
   "author": "Yuvraj Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
