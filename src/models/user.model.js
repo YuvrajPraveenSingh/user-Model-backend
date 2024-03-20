@@ -1,8 +1,8 @@
-import mongoose, { Schema, schema } from "mongoose";
+import mongoose, { Schema } from "mongoose";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
-const userSchema = new schema({
+const userSchema = new Schema({
     username:{
         type : String,
         require: true ,
@@ -42,6 +42,10 @@ const userSchema = new schema({
         require: [true, "Password is required"],
         min:8,
     },
+    refreshToken:{
+        type: String,
+        
+    }
     },{timestamps:true});
 
 // encrypt password before saving
