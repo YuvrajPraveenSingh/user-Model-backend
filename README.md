@@ -66,19 +66,29 @@ API Endpoints
 Dependencies
 
     bcrypt: Password hashing and encryption.
+
     cloudinary: Cloud storage for uploading images and videos.
+
     cookie-parser: Parse cookies in the HTTP request.
+
     cors: Enable CORS (Cross-Origin Resource Sharing) middleware.
+
     dotenv: Load environment variables from a .env file.
+
     express: Web application framework for Node.js.
+
     jsonwebtoken: Generate and verify JSON Web Tokens (JWT) for user authentication.
+
     mongoose: MongoDB object modeling for Node.js.
+
     mongoose-aggregate-paginate-v2: Paginate mongoose models using aggregation.
+
     multer: Middleware for handling multipart/form-data, used for file uploads.
 
 Development Dependencies
 
     nodemon: Monitor for changes and automatically restart the server.
+    
     prettier: Code formatter for consistent code style.
 
 License
