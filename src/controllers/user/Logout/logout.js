@@ -7,9 +7,7 @@ import { ApiResponse } from "../../../utils/ApiResponse.js";
 /* has used Auth middlle in <logout> routes before this */
 const logout = asyncHandler(async (req, res) => {
     const user = req.user._id;
-    const options = {
-    
-    };
+    const options = {httpOnly:true};
     await User.findByIdAndUpdate(user, {
         $set: {
             refreshToken: "",
