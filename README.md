@@ -94,6 +94,7 @@ Development Dependencies
 License
 
 This project is licensed under the ISC License. See the LICENSE file for details.
+
 Author : Yuvraj Singh
 
 Feel free to modify and extend this backend according to your project requirements. 
