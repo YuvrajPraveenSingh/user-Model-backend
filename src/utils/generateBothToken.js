@@ -4,11 +4,11 @@ import {User} from '../models/user.model.js';
 const  genrateAccessAndRefreshToken = async (userId) =>{
     try {
         const user =await User.findById(userId);
-        const accesToken = user.generateAcessToken();
-        const refreshToken = user.generateRefreshToken();
-        user.refreshToken = RefreshToken;
+        const accessToken = await user.generateAcessToken();
+        const refreshToken =await user.generateRefreshToken();
+        user.refreshToken = refreshToken;
         await user.save({validateBeforeSave: false});
-        return {accesToken, refreshTokenefreshToken};
+        return {accessToken, refreshToken};
     } catch (error) {
         throw new ApiError(500, error.message);
         

@@ -7,4 +7,4 @@ import { logout  as LogOut} from "./Logout/logout.js";
  const loginUser = Login; 
  const logoutUser = LogOut;
 
-export {registerUser , loginUser};
+export {registerUser , loginUser , logoutUser};
