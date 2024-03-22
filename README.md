@@ -88,7 +88,7 @@ Dependencies
 Development Dependencies
 
     nodemon: Monitor for changes and automatically restart the server.
-    
+
     prettier: Code formatter for consistent code style.
 
 License
@@ -96,6 +96,8 @@ License
 This project is licensed under the ISC License. See the LICENSE file for details.
 Author : Yuvraj Singh
 
-Feel free to modify and extend this backend according to your project requirements. Happy coding!
+Feel free to modify and extend this backend according to your project requirements. 
+
+Happy coding!!!
 
 
