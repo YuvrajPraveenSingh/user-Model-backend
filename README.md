@@ -1,4 +1,4 @@
-# YouTube Backend - README
+# User Model Backend - README
 
 This is the backend component for a MERN (MongoDB, Express.js, React.js, Node.js) stack application to manage videos and users. The backend handles authentication, video management, and user-related operations.
 
@@ -15,13 +15,13 @@ Before running the backend server, ensure you have the following installed on yo
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/YuvrajPraveenSingh/user-Model-backend
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd youtube-backend
+    cd User-Model-backend
     ```
 
 3. Install dependencies:
@@ -55,13 +55,13 @@ npm start
 The server will start listening on the specified port (default is 3000). You can now make API requests to the endpoints provided by the backend.
 API Endpoints
 
-    POST /api/users/register: Register a new user.
-    POST /api/users/login: Login an existing user.
-    GET /api/videos: Retrieve all videos.
-    GET /api/videos/:id: Retrieve a specific video by ID.
-    POST /api/videos: Upload a new video.
-    PUT /api/videos/:id: Update an existing video.
-    DELETE /api/videos/:id: Delete a video.
+    POST <localhost:port>/api/v1/users/register: Register a new user.
+    POST  <localhost:port>/api/v1/users/login: Login an existing user.
+    GET  <localhost:port>/api/v1/videos/allvideo: Retrieve all videos.
+    GET <localhost:port>/api/v1/videos/:id: Retrieve a specific video by ID.
+    POST <localhost:port>/api/v1/videos/upload: Upload a new video.
+    PUT <localhost:port>/api/v1/videos/id: Update an existing video.
+    DELETE <localhost:port>/api/v1/videos/:id: Delete a video.
 
 Dependencies
 
